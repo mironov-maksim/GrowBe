@@ -9,8 +9,10 @@
 
 .speed__img {
   position: absolute;
-  left: 550px;
-  top: -200px;
+  right: -155px;
+  transform: translateY(-50%);
+  top: 50%;
+  width: 66%;
   z-index: -1;
   overflow: hidden;
 }

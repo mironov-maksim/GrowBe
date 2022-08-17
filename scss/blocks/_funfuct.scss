@@ -7,12 +7,11 @@
   flex-wrap: wrap;
   text-align: center;
   border: 2px solid #eeeeee;
-  justify-content: space-evenly;
   padding: 43px 10px 42px;
 }
 
 .funfuct__item {
-  width: 14%;
+  width: 25%;
   position: relative;
 
   &::after {
@@ -23,8 +22,8 @@
     position: absolute;
     border-radius: 100%;
     top: 50%;
-    transform: translate(-50%, -50%);
-    right: -50%;
+    transform: translate(50%, -50%);
+    right: 0;
   }
   &:nth-child(3n + 1)::after {
     background: #f3602d;
